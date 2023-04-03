@@ -6,4 +6,10 @@
         </h2>
     </x-slot>
 
+    <x-container class="py-12">
+
+        @livewire('user-table')
+
+    </x-container>
+
 </x-app-layout>

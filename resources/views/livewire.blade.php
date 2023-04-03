@@ -6,4 +6,15 @@
         </h2>
     </x-slot>
 
+    <x-container class="py-12">
+
+        <x-card>
+
+
+            @livewire('forms')
+
+        </x-card>
+
+    </x-container>
+
 </x-app-layout>
