@@ -6,17 +6,7 @@
         </h2>
     </x-slot>
 
-    <x-container class="py-12">
-
-        <x-button primary onclick="notificacion()">
-            Mostrar notificación
-        </x-button>
-
-        <x-button onclick="confirmarNotificacion()">
-            Mostrar notificación
-        </x-button>
-
-    </x-container>
+    
 
 
     @push('js')

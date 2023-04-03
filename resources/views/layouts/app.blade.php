@@ -14,15 +14,12 @@
         <!-- Scripts -->
         @wireUiScripts
         @vite(['resources/css/app.css', 'resources/js/app.js'])
-        @stack('css')
 
         <!-- Styles -->
         @livewireStyles
     </head>
     <body class="font-sans antialiased">
         <x-banner />
-
-        <x-notifications />
 
         <div class="min-h-screen bg-gray-100">
             @livewire('navigation-menu')
@@ -45,7 +42,6 @@
         @stack('modals')
 
         @livewireScripts
-
-        @stack('js')
+        
     </body>
 </html>
